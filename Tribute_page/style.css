@@ -1,0 +1,60 @@
+h1, h2 {
+    font-family: Helvetica;
+    text-align: center;
+  }
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+  }
+  
+  figcaption {
+    font-family: Trebuchet MS;
+    text-align: center;
+    font-size: 14px;
+  }
+
+body {
+    font-family: Trebuchet MS;
+  }
+  
+  ul {
+    margin: 0 20% 5% 20%;
+  }
+  
+  li {
+    line-height: 150%;
+  }
+  
+  q {
+    display: block;
+    margin: 0 10% 1% 10%;
+    font-family: Helvetica;
+    font-size: 22px;
+    text-align: center;
+  }
