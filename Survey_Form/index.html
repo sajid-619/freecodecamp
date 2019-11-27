@@ -1,0 +1,54 @@
+<header>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Let us know your opinion about the product.</p>
+   </header>
+  <form id="survey-form">
+    <h6><span style="color:red">*</span> Denotes required field</h6>
+  <label class="leftcolumn" id="name-label" >Name:<span style="color:red">*<span/></label>
+    <input class="rightcolumn" id="name" type="text" name="name"  placeholder="Enter your name" required><br>
+    <label class="leftcolumn" id="email-label" >Email:<span style="color:red">*<span/></label>
+    <input class="rightcolumn" id="email"type="email" name="name"  placeholder="Enter your email" required><br>
+    <label class="leftcolumn" id="number-label">Age:<span style="color:red">*<span/></label>
+    <input class="rightcolumn" id="number" type="number" name="name" min="1" max="99" placeholder="Age" required><br>
+    <label id="dropdown-label"class="leftcolumn" for="profession">What is your current profession?</label>
+    <div="select-input">
+    <select class="rightcolumn" id="dropdown" name="profession">
+      <option class="rightcolumn"value="Engineer">Engineer
+      <option class="rightcolumn" value="Developer">Developer
+      <option class="rightcolumn" value="Student">Student
+      <option class="rightcolumn" value="Other">Other
+    </select><br>
+    </div>
+   <div class="radio-container">
+  <label class="leftcolumn"  id="radio-label">How likely is that you would recommend this book to a friend?</label>
+    <input class="radio" type="radio" name="likely" value="male" checked><p>Very likely</p>
+    <input class="radio " type="radio" name="likely" value="female"><p> Likely</p>
+    <input class="radio " type="radio" name="likely" value="other"><p>Not likely at all</p>
+      </div>
+  <label id="preferences"class="leftcolumn" for="preferences"> What do you like the most about this book?</label>
+  <select class="rightcolumn" id="preferences-label" name="preferences">
+      <option class="rightcolumn" value="HTML">The HTML section
+      <option class="rightcolumn" value="CSS"> The Css section
+      <option class="rightcolumn" value="Javascript">The Javascript section
+    <option class="rightcolumn" value="Other">Other</select>
+      <br> <br> <br>
+    <div="checkbox-container">
+        <label id="checkbox" class="leftcolumn"><p>Things that should be improved in the future (Check all that apply) </p></label>
+        <ul>
+          <li id="check" class="rightcolumn ">Front-end Projects<input class="checkbox"type="checkbox" value="ON"></li>
+          <li id="check" class="rightcolumn lista">Back-end Projects<input class="checkbox"type="checkbox" value="ON"></li>
+          <li id="check" class="rightcolumn lista">HTML section<input class="checkbox" type="checkbox"value="ON"></li>
+          <li id="check" class="rightcolumn lista">CSS section<input class="checkbox" type="checkbox"value="ON"></li>
+          <li id="check" class="rightcolumn lista">Javascript section<input class="checkbox" type="checkbox"value="ON"></li>
+          <li id="check" class="rightcolumn"> Flexbox section<input class="checkbox" type="checkbox" value="ON"></li>
+    </ul>
+    </div>
+      <div class="area">
+          <label class="leftcolumn" for="textarea" id="textarealabel">Any Comments or Suggestions?</label>
+    <textarea style="resize:vertical; "id="textarea" class="rightcolumn" placeholder="Enter your text here..."></textarea><br>
+   <button id="submit" type="submit">Submit</button>
+  </form>
+    </div>
+  </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">>
+  </script>
